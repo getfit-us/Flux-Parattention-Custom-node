@@ -17,3 +17,16 @@ class FluxParattentionNode:
             return {"num_gpus": num_gpus}
         else:
             return None
+
+
+
+
+
+
+NODE_CLASS_MAPPINGS = {
+    "FluxParattentionNode": FluxParattentionNode,
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "FluxParattentionNode": "Flux Parattention",
+}
