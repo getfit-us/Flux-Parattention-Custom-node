@@ -1,0 +1,2 @@
+para-attn
+torch==2.5.0
